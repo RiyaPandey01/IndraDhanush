@@ -1,0 +1,110 @@
+.{
+	padding: 0; margin: 0; box-sizing: border-box: 0;
+}
+#home{
+	background: url("img/bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	clip-path: polygon(50% 0%, 84% 0, 100% 0, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0 0, 23% 0);
+
+}
+.navbar-brand{
+	font-family: 'Ma Shan Zheng', cursive;
+	padding: 20px;
+
+}
+
+#shade{
+	color:red;
+}
+#shade2{
+	color: orange;
+}
+#shade3{
+	color: yellow;
+}
+#shade4{
+	color:lawngreen;
+}
+#shade5{
+	color: blue;
+}
+#shade6{
+	color: indigo;
+}
+#shade7{
+	color:violet;
+}
+.navbar-nav a:hover{
+	background:#6F12FF;
+	transition: 0.4;
+}
+.text{
+	font-family:'Ma Shan Zheng', cursive; 
+	font-size: 3rem;
+	text-align: center;
+	color: white;
+	padding:300px 200px 200px 200px;
+}
+.text h1{
+	font-size:5rem;
+	text-align: center;
+}
+
+.text h5{
+	color:ghostwhite ;
+	font-size:1.5rem;
+}
+
+
+.btn{
+	font-family:'Pacifico', cursive;
+}
+#page2{
+  text-align: center; 
+  padding: 150px 150px 150px 150px;
+  
+}
+#form{
+  
+  text-align: center;
+  padding: 10px 50px 50px 50px;
+}
+#form h1{
+  padding-top:20px;
+  color:indigo;
+  font-family:'Ma Shan Zheng', cursive;
+  font-size: 3rem;
+}
+
+#form form input{
+  width:60%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#form form textarea{
+  width: 60%;
+  padding: 10px;
+}
+
+.card{
+	margin-top: 50px;
+	flex-basis: 100%;
+	margin: 0px 50px 0px 50px;
+	box-shadow: 5px 6px 10px grey;
+	transform: rotateX(60deg);
+	transition: transform 1s;
+}
+.card:hover{
+	transform: rotateX(0deg) translateZ(300px);
+}
+.footer{
+	padding: 7% 15%;
+	text-align: center;
+	background:#6F12FF;
+	color:white;
+	padding:10px;
+	font-family:'Ma Shan Zheng', cursive;
+	font-size: 1.5rem;
+}
